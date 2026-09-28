@@ -1,0 +1,7 @@
+Options -Indexes
+DirectoryIndex index.php
+ErrorDocument 404 /404.php
+
+<FilesMatch "\.(sql|md|env)$">
+    Require all denied
+</FilesMatch>
